@@ -1,3 +1,4 @@
+/* @import url(../fonts/font.css); */
 html {
 		scroll-behavior: smooth;
 }
@@ -313,6 +314,7 @@ body, p, h1, h2 {
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
 		margin-bottom: 30px;
+		padding-top: 30px;
 }
 .catalog__wrapper {
 		width: 320px;
@@ -320,7 +322,7 @@ body, p, h1, h2 {
 .catalog__title {
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 35px;
+		font-size: 30px;
 		font-weight: bold;
 }
 .catalog__blok {
@@ -381,24 +383,30 @@ body, p, h1, h2 {
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
-		-ms-flex-pack: distribute;
-		    justify-content: space-around;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		margin-top: 20px;
 }
 .catalog__price--title {
-		font-size: 28px;
+		font-size: 25px;
 }
 .catalog__price--subtitle {
-		font-size: 35px;
+		font-size: 30px;
 		text-align: center;
 		color: rgb(22, 110, 22);
 }
 .catalog__price--subtitle span {
-		font-size: 30px;
+		font-size: 25px;
 		color: black;
 }
 .catalog__button {
-		display: block;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		text-align: center;
 		text-decoration: none;
 		font-size: 18px;
@@ -407,7 +415,7 @@ body, p, h1, h2 {
 		color: #fff;
 		padding-top: 15px;
 		padding-bottom: 5px;
-		width: 120px;
+		width: 150px;
 		height: 35px;
 		border: 1px solid rgb(242, 47, 5);
 		background-color: rgb(242, 47, 5);
