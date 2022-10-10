@@ -394,13 +394,37 @@ body, p, h1, h2 {
 		padding-right: 4.5px;
 }
 .catalog__price--subtitle {
-		font-size: 30px;
+		padding-top: 10px;
+		font-size: 28px;
+		text-align: start;
+		position: relative;
+}
+.catalog__price--subtitle span {
+		font-size: 20px;
+		color: black;
+}
+.catalog__price--subtitle::before {
+		content: "";
+		position: absolute;
+		background-image: url(../images/icons/line-fococlipping-standard.png);
+		background-repeat: no-repeat;
+		background-size: 80px;
+		top: -9px;
+		width: 65px;
+		height: 80px;
+		color: rgb(242, 47, 5);
+		-webkit-transform: rotate();
+		        transform: rotate();
+}
+.catalog__price--sale {
+		padding-top: 10px;
+		font-size: 35px;
 		text-align: center;
 		color: rgb(22, 110, 22);
 }
-.catalog__price--subtitle span {
-		font-size: 25px;
+.catalog__price--sale span {
 		color: black;
+		font-size: 28px;
 }
 .catalog__button {
 		display: -webkit-box;
