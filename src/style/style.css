@@ -726,8 +726,8 @@ body, p, h1, h2 {
 		        animation-name: sale;
 		-webkit-animation-duration: 5s;
 		        animation-duration: 5s;
-		-webkit-animation-iteration-count: 5;
-		        animation-iteration-count: 5;
+		-webkit-animation-iteration-count: infinite;
+		        animation-iteration-count: infinite;
 		-webkit-transform-origin: bottom center;
 		        transform-origin: bottom center;
 }
@@ -742,8 +742,8 @@ body, p, h1, h2 {
 				        animation-name: sale2;
 				-webkit-animation-duration: 5s;
 				        animation-duration: 5s;
-				-webkit-animation-iteration-count: 5;
-				        animation-iteration-count: 5;
+				-webkit-animation-iteration-count: infinite;
+				        animation-iteration-count: infinite;
 				-webkit-transform-origin: bottom center;
 				        transform-origin: bottom center;
 		}
