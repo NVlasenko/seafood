@@ -1590,7 +1590,7 @@ body, p, h1, h2 {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.catalog__title {
-				font-size: 10px;
+				font-size: 9px;
 				padding-top: 20px;
 		}
 }
