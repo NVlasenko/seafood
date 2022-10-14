@@ -737,7 +737,7 @@ body, p, h1, h2 {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.header__button {
-				margin-right: 45px;
+				margin-right: 44px;
 				padding-bottom: 20px;
 		}
 }
@@ -1875,7 +1875,7 @@ body, p, h1, h2 {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.catalog__price--left {
-				padding-right: 0.5px;
+				padding-right: 0;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
