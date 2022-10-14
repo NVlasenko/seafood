@@ -1876,7 +1876,7 @@ body, p, h1, h2 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.catalog__price--left {
 				padding-right: 0.5px;
-				border-right: 0.3px dotted black;
+				border-right: 0.1px dotted black;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
