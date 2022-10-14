@@ -1870,7 +1870,7 @@ body, p, h1, h2 {
 		}
 }
 .catalog__price--left {
-		border-right: 1px dotted black;
+		border-right: 2px dotted black;
 		padding-right: 4.5px;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
