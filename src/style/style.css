@@ -3828,11 +3828,13 @@ body, p, h1, h2 {
 		.modal__input {
 				font-size: 8px;
 				height: 20px;
+				width: 90%;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
 		.modal__input {
 				font-size: 12px;
+				width: 90%;
 		}
 }
 
