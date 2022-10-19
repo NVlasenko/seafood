@@ -3794,7 +3794,12 @@ body, p, h1, h2 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.modal__main {
 				padding: 20px 30px 30px;
-				max-width: 400px;
+		}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+		.modal__main {
+				padding: 20px 30px 30px;
+				max-width: 500px;
 		}
 }
 
@@ -3805,6 +3810,11 @@ body, p, h1, h2 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.modal__title {
 				font-size: 10px;
+		}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+		.modal__title {
+				font-size: 15px;
 		}
 }
 
@@ -3818,6 +3828,11 @@ body, p, h1, h2 {
 		.modal__input {
 				font-size: 8px;
 				height: 20px;
+		}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+		.modal__input {
+				font-size: 12px;
 		}
 }
 
@@ -3860,6 +3875,12 @@ body, p, h1, h2 {
 				padding-top: 5px;
 		}
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+		.modal__button {
+				font-size: 13px;
+				padding-top: 6px;
+		}
+}
 .modal__button:hover {
 		background-color: rgb(194, 38, 4);
 }
@@ -3887,6 +3908,13 @@ body, p, h1, h2 {
 		.modal__close {
 				width: 10px;
 				height: 10px;
+				font-size: 15px;
+		}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+		.modal__close {
+				width: 15px;
+				height: 15px;
 				font-size: 15px;
 		}
 }
