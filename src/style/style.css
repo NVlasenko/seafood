@@ -3911,13 +3911,16 @@ body, p, h1, h2 {
 				width: 10px;
 				height: 10px;
 				font-size: 15px;
+				top: 3px;
+				right: 11px;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
 		.modal__close {
-				width: 15px;
-				height: 15px;
+				width: 17px;
+				height: 17px;
 				font-size: 15px;
+				top: 5px;
 		}
 }
 
