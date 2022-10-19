@@ -236,16 +236,16 @@ body, p, h1, h2 {
 .sticky__list--active:hover {
 		color: rgb(242, 47, 5);
 }
-.sticky__bascet {
+.sticky__phone {
 		position: relative;
-		top: -8px;
+		top: -2px;
 		padding-left: 20px;
 		height: 40px;
 		width: 40px;
 		background-size: 40px;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 16px;
 				width: 16px;
 				padding-left: 10px;
@@ -255,7 +255,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 600px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 20px;
 				width: 20px;
 				padding-left: 10px;
@@ -265,7 +265,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 600px) and (max-width: 700px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 20px;
 				width: 20px;
 				padding-left: 10px;
@@ -276,7 +276,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 700px) and (max-width: 767px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 22px;
 				width: 22px;
 				padding-left: 10px;
@@ -287,7 +287,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 23px;
 				width: 23px;
 				padding-left: 10px;
@@ -297,7 +297,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 1024px) and (max-width: 1250px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 32px;
 				width: 32px;
 				padding-left: 19px;
@@ -307,7 +307,7 @@ body, p, h1, h2 {
 		}
 }
 @media screen and (min-width: 1250px) and (max-width: 1400px) {
-		.sticky__bascet {
+		.sticky__phone {
 				height: 40px;
 				width: 40px;
 				padding-left: 21px;
@@ -3760,4 +3760,137 @@ body, p, h1, h2 {
 		.pt60 {
 				padding-top: 40px;
 		}
+}
+
+.section__button {
+		cursor: pointer;
+		outline: 2px solid transparent;
+		outline-offset: 3px;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.modal {
+		position: fixed;
+		inset: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		cursor: pointer;
+		padding: 30px;
+		overflow-y: auto;
+		display: none;
+		z-index: 2;
+}
+
+.modal__main {
+		position: relative;
+		max-width: 700px;
+		margin: auto;
+		color: #000;
+		border-radius: 16px;
+		padding: 30px 50px 50px;
+		cursor: default;
+		background-color: rgb(235, 219, 219);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__main {
+				padding: 20px 30px 30px;
+				max-width: 400px;
+		}
+}
+
+.modal__title {
+		font-size: 18px;
+		margin-bottom: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__title {
+				font-size: 10px;
+		}
+}
+
+.modal__input {
+		width: 100%;
+		height: 30px;
+		font-size: 15px;
+		padding-left: 5px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__input {
+				font-size: 8px;
+				height: 20px;
+		}
+}
+
+.modal__text {
+		font-size: 15px;
+		padding-bottom: 3px;
+		padding-top: 5px;
+		font-weight: 500;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__text {
+				font-size: 8px;
+		}
+}
+
+.modal__button {
+		display: block;
+		margin: auto;
+		font-weight: 500;
+		margin-top: 20px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+		padding-top: 9px;
+		padding-bottom: 5px;
+		width: 160px;
+		height: 40px;
+		border: 1px solid rgb(242, 47, 5);
+		background-color: rgb(242, 47, 5);
+		border-radius: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__button {
+				font-size: 8px;
+				height: 25px;
+				width: 95px;
+				margin-top: 10px;
+				padding-top: 5px;
+		}
+}
+.modal__button:hover {
+		background-color: rgb(194, 38, 4);
+}
+
+.modal__close {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		font-size: 22px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		outline: 1px solid transparent;
+		outline-offset: 3px;
+		-webkit-transition: outline-color 0.15s ease-in-out;
+		transition: outline-color 0.15s ease-in-out;
+		border-radius: 3px;
+		padding: 0;
+		text-align: center;
+		display: block;
+		width: 30px;
+		height: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+		.modal__close {
+				width: 10px;
+				height: 10px;
+				font-size: 15px;
+		}
+}
+
+.modal__close:focus-visible {
+		outline-color: green;
 }
