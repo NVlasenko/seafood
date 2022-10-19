@@ -3870,17 +3870,19 @@ body, p, h1, h2 {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.modal__button {
-				font-size: 8px;
-				height: 25px;
-				width: 95px;
+				font-size: 9px;
+				height: 30px;
+				width: 105px;
 				margin-top: 10px;
 				padding-top: 5px;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
 		.modal__button {
-				font-size: 13px;
+				font-size: 11px;
 				padding-top: 6px;
+				height: 35px;
+				width: 117px;
 		}
 }
 .modal__button:hover {
@@ -3908,11 +3910,11 @@ body, p, h1, h2 {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 		.modal__close {
-				width: 10px;
-				height: 10px;
-				font-size: 15px;
+				width: 17px;
+				height: 14px;
+				font-size: 12px;
 				top: 3px;
-				right: 11px;
+				right: 5px;
 		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
